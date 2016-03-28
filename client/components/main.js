@@ -1,7 +1,6 @@
 'use strict';
 
 var React = require('react');
-var ReactDOM = require('react-dom');
 var Users = require('./createUser');
 var url = 'http://js-assessment-backend.herokuapp.com/users.json';
 var fetchRequest = require('../http_requests.js');
@@ -41,9 +40,6 @@ var UserList = React.createClass({
   	}
 });
 
-ReactDOM.render(
-	<Router history={hashHistory}>{routes}</Router>, 
-	document.getElementById('app'));
-
+module.exports = UserList;
 
 
