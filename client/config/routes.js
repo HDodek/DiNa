@@ -5,6 +5,7 @@ var Main = require('../components/index.js');
 var Overview = require('../components/overview.js');
 var Sites = require('../components/sites.js');
 var Users = require('../components/users.js');
+var Index = require('../components/index.js');
 var Payment_credits = require('../components/payment_credits.js');
 var Router = require('react-router');
 var Route = Router.Route;
@@ -16,6 +17,6 @@ module.exports = (
     <Route path="sites" component={Sites} />
     <Route path="users" component={Users} />
     <Route path="payment_credits" component={Payment_credits} />
-    <IndexRoute component={Main} />
+    <IndexRoute component={Index} />
   </Route>
 );
