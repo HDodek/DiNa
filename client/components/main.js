@@ -33,24 +33,23 @@ var UserList = React.createClass({
 		this.setState({user: JSON.parse(response)})
 	},
 
-	///handleOnClick: function() {
-	//	this.setState({isClicked: !this.state.isClicked})
-	//},
-
-
-	render: function() {
+	//handleOnClick: function() {
 	//var isClicked = this.state.isClicked;
 	//var style = {textDecoration: 'none'};
-	//if (isClicked) {
+	//if (isClicked === true) {
 	//	style = {textDecoration: 'line-through'}
-	//};
+	//	}
+	//},
+
+	render: function() {
 
     return (
     	<div> 
-    		<Users user={this.state.user} />
+    		<Users user={this.state.user} /*onClick={this.handleOnClick}*//>
 
 		</div>
     	);
+    
   	}
 });
 

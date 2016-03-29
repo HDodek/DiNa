@@ -1,3 +1,7 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
 .navbar {
 	align-items: flex-start;
 	background-image: url('./bg.png');
@@ -13,11 +17,17 @@
 	padding-left: 20px;
 	font-size: 20px;
 	position: relative;
+	font-weight: bolder;
 }
 
 .navbar a:link {
  	display:block;
  	text-decoration: none;
  	color: #808080;
+}
+
+.navbar a:hover {
+	background-color: #696969;
+	color: white;
 }
 
