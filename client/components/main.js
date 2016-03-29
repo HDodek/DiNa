@@ -6,6 +6,8 @@ var url = 'http://js-assessment-backend.herokuapp.com/users.json';
 var fetchRequest = require('../http_requests.js');
 var routes = require('../config/routes');
 import {Router, hashHistory} from 'react-router';
+require('../../public/style/navbar.css');
+
 
 
 var UserList = React.createClass({
@@ -46,7 +48,7 @@ var UserList = React.createClass({
     return (
     	<div> 
     		<Users user={this.state.user} />
-    		
+
 		</div>
     	);
   	}

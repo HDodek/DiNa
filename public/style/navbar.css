@@ -1,0 +1,23 @@
+.navbar {
+	align-items: flex-start;
+	background-image: url('./bg.png');
+	box-shadow: 0 10px 10px -11px rgba(0, 0, 0, 0.5);
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	padding: 0;
+}
+
+.overview, .sites, .users, .payment_credits {
+	padding-top: 60px;
+	padding-left: 20px;
+	font-size: 20px;
+	position: relative;
+}
+
+.navbar a:link {
+ 	display:block;
+ 	text-decoration: none;
+ 	color: #808080;
+}
+
