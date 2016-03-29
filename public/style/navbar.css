@@ -1,7 +1,3 @@
-body {
-	font-family: 'Lato', sans-serif;
-}
-
 .navbar {
 	align-items: flex-start;
 	background-image: url('./bg.png');
@@ -13,17 +9,17 @@ body {
 }
 
 .overview, .sites, .users, .payment_credits {
+	font-size: 20px;
+	font-weight: bolder;
 	padding-top: 60px;
 	padding-left: 20px;
-	font-size: 20px;
 	position: relative;
-	font-weight: bolder;
 }
 
 .navbar a:link {
  	display:block;
- 	text-decoration: none;
  	color: #808080;
+ 	text-decoration: none;
 }
 
 .navbar a:hover {
